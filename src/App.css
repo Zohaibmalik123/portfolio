@@ -1,0 +1,119 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;900&family=Roboto:wght@900&display=swap"); */
+html {
+  scroll-behavior: smooth;
+}
+/* Custom CSS for scrollbar starts here */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+  height: 8px; /* Set the height of the scrollbar */
+}
+
+/* Rest of the scrollbar styles */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1da1f2; /* Set the color of the thumb */
+  border-radius: 4px; /* Add some border-radius for a rounded thumb */
+}
+
+/* Optional: Hover and active styles for the thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1da1f2; /* Set the hover color */
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #0c7cbf; /* Set the active color */
+}
+
+/* Custom CSS for scrollbar ends here */
+
+/* Home */
+.projects,
+.about,
+.experience,
+.contact {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+}
+
+/* Form validation error */
+.form-error {
+  /* color: rgb(223, 105, 105); */
+  color: #1da1f2;
+  font-size: 0.875rem; /* Adjust the font size as needed */
+  margin-top: 0.25rem; /* Adjust the margin as needed */
+}
+
+/* Navigation */
+.active {
+  color: #1da1f2; /* or any other style you want for active link */
+}
+
+.nav_menu {
+  height: 20px;
+  /* background: #1da1f2; */
+}
+
+/* .hero_section {
+  height: calc(100vh - 20px);
+} */
+
+.underline-effect {
+  position: relative;
+}
+
+.underline-effect::before {
+  content: "";
+  position: absolute;
+  left: 30%;
+  bottom: -3px; /* Adjust this value to position the underline */
+  height: 2px; /* Adjust this value to control the underline thickness */
+  background-color: #1da1f2; /* Adjust this value to set the underline color */
+  width: 25px; /* Default width for larger screens */
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.underline-effect:hover::before,
+.underline-effect.active::before {
+  width: 25px; /* Adjust this value to set the full width on hover or when active */
+  transform: translateX(-50%) scaleX(1);
+}
+.underline-effect:hover::after,
+.underline-effect.active::after {
+  width: 25px; /* Adjust this value to set the full width on hover or when active */
+  transform: translateX(-50%) scaleX(1);
+}
+
+@media (max-width: 767px) {
+  .underline-effect::before {
+    width: 20px; /* Width for smaller screens */
+    left: 5%;
+  }
+}
+
+@media (max-width: 639px) {
+  .underline-effect::before {
+    width: 15px; /* Width for extra small screens */
+    left: 8%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .underline-effect::before {
+    width: 35px; /* Width for larger screens (lg) */
+    left: 5%;
+  }
+
+  /* .sideMenu {
+    display: block; 
+  } */
+}
+@media (min-width: 1024px) {
+  .sideMenu {
+    display: none; /* Hide the side menu when large screen */
+  }
+}
