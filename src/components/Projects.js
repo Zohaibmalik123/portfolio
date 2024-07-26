@@ -43,7 +43,7 @@ function Projects() {
       imageUrl:
         "https://firebasestorage.googleapis.com/v0/b/portfolio-4f2d2.appspot.com/o/facebook-clone.png?alt=media&token=adab8011-ea4d-48b8-9095-dd1399ae40bb",
       deployedUrl: "https://facebook-clone-blush-alpha.vercel.app/",
-      githubRepo: "https://github.com/arshan-01/Facebook---Clone",
+      githubRepo: "#",
       description:
         "A social media platform that allowed users to sign in with their Google accounts and share updates.",
       technologies: ["React JS", "Firebase"],
@@ -55,7 +55,7 @@ function Projects() {
         "https://firebasestorage.googleapis.com/v0/b/portfolio-4f2d2.appspot.com/o/react-filtering-searching-pagination.png?alt=media&token=3cff4606-68a7-4822-a5bb-f5a4ef0dbb6e",
       deployedUrl: "https://react-filtering-searching-pagination.vercel.app/",
       githubRepo:
-        "https://github.com/arshan-01/react-filtering-searching-pagination",
+        "#",
       description:
         "A web page that includes searching, filtering by category, and pagination features. I utilized Chakra UI to style the project efficiently and create an intuitive user interface.",
       technologies: ["React", "Chakra UI"],
@@ -66,7 +66,7 @@ function Projects() {
       imageUrl:
         "https://firebasestorage.googleapis.com/v0/b/portfolio-4f2d2.appspot.com/o/javascript-shopping-cart.png?alt=media&token=a246c70e-6d9c-4f87-9ba3-619dc70c2083",
       deployedUrl: "https://javascript-shopping-cart.vercel.app/",
-      githubRepo: "https://github.com/arshan-01/Javascript-Shopping-Cart",
+      githubRepo: "#",
       description:
         "Websites that allow customers to browse, search, and add items to their shopping carts",
       technologies: ["HTML", "CSS", "Javascript"],
