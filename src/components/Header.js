@@ -364,25 +364,25 @@ function Header() {
                 <div className="flex justify-between items-center py-3">
                   <SocialIcon
                     className="cursor-pointer"
-                    url="https://www.facebook.com/TheArshan.Official/"
+                    url="https://www.facebook.com/pirnce.zabi"
                     fgColor="gray"
                     bgColor="transparent"
                   />
                   <SocialIcon
                     className="cursor-pointer"
-                    url="https://twitter.com/arshanofficial_"
+                    url="https://twitter.com/"
                     fgColor="gray"
                     bgColor="transparent"
                   />
                   <SocialIcon
                     className="cursor-pointer"
-                    url="https://github.com/arshan-01"
+                    url="https://github.com/Zohaibmalik123"
                     fgColor="gray"
                     bgColor="transparent"
                   />
                   <SocialIcon
                     className="cursor-pointer"
-                    url="https://www.instagram.com/arshannawaz.official/"
+                    url="https://www.instagram.com/zohaib.ali.malik/"
                     fgColor="gray"
                     bgColor="transparent"
                   />
