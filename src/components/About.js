@@ -7,8 +7,8 @@ function About() {
   return (
     <div className=" flex flex-col">
       <div className="xsm:p-4 md:p-9">
-        <p className="uppercase p-9 text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.8em] mx-auto text-center">
-          About
+        <p className="uppercase p-9 sm:text-2xl font-bold text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.3em] mx-auto text-center">
+          About Me
         </p>
       </div>
       <div className="flex lg:flex-row flex-col items-center justify-center mx-auto sm:w-[90%] md:w-[85%] lg:w-[90%] ">
@@ -25,13 +25,13 @@ function About() {
           className="py-6"
         >
           <img
-            className=" rounded-full xsm:w-32 xsm:h-32 md:w-48 md:h-48 md:rounded-lg  lg:w-[70%] lg:h-[70%] xl:w-[60%] xl:h-[60%]  "
+            className="xl:rounded-full xsm:w-32 xsm:h-32 md:w-48 md:h-48 md:rounded-lg  lg:w-[70%] lg:h-[70%] xl:w-[70%] xl:h-[70%]  "
             src={profile}
             alt="profile picture"
           />
         </motion.div>
 
-        <div className="xsm:px-5 md:w-[80%] lg:w-[80%] xl:w-[60%]  h-80 ">
+        <div className="xsm:px-5 md:w-[80%] lg:w-[80%] xl:w-[50%]  h-80 ">
           {/* <p className="xsm:py-5 xsm:text-center lg:text-justify pl-5 text-2xl font-semibold">
             Here is a little background
           </p> */}
