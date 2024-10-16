@@ -6,7 +6,7 @@ import resume from "../assets/Resume.pdf";
 
 function About() {
   return (
-    <div className=" mb-12 flex flex-col">
+    <div className="lg:mb-12 sm:mb-12 flex flex-col">
       <div className="xsm:p-4 md:p-9">
         <p className="uppercase p-9 sm:text-2xl font-bold text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.3em] mx-auto text-center">
           About Me
@@ -32,7 +32,7 @@ function About() {
           />
         </motion.div>
 
-        <div className="xsm:px-5 md:w-[80%] lg:w-[80%] xl:w-[50%]  h-80 ">
+        <div className="xsm:px-5 md:w-[80%] lg:w-[80%] xl:w-[50%]  h-100 ">
           {/* <p className="xsm:py-5 xsm:text-center lg:text-justify pl-5 text-2xl font-semibold">
             Here is a little background
           </p> */}

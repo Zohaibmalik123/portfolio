@@ -68,7 +68,7 @@ function Experience() {
   return (
     <div className="experience flex flex-col text-center p-5 overflow-hidden justify-center items-center md:w-[97%] xl:w-[100%] lg:w-full">
       {/* <p className="uppercase xsm:p-16 lg:p-9 text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.8em] mx-auto xsm:mt-6"> */}
-      <p className="uppercase p-9 sm:text-2xl font-bold text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.3em] xsm:pt-12  xsm:mt-12 mx-auto text-center">
+      <p className="uppercase p-9 sm:text-2xl font-bold text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.3em] lg:mt-12 xsm:pt-6  xsm:mt-12 mx-auto text-center">
         Experience
       </p>
       <div className="w-full xsm:p-5 lg:px-0 xl:p-9 flex relative justify-around items-center overflow-x-auto snap-x snap-mandatory mt-6">
