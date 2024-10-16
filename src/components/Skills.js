@@ -11,12 +11,18 @@ function Skills() {
       name: "HTML",
       logoUrl:
         "https://w7.pngwing.com/pngs/186/608/png-transparent-html5-icon-%E2%80%A2-html-social-network-icon.png",
-      percent: 80,
+      percent: 90,
     },
     {
       name: "Laravel",
       logoUrl:
-      "https://laravel.com/img/logomark.min.svg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ82JrlYKoul-cEPccgMJvUdITR6WN5ZfMlA&s",
+      percent: 90,
+    },
+    {
+      name: "PHP",
+      logoUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2NIUKQkMz7G-QX0ob2iYYooIMbjNo8Q6mBg&s",
       percent: 80,
     },
     {
@@ -28,8 +34,8 @@ function Skills() {
     { 
       name: "JavaScript",
       logoUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
-      percent: 70,
+        "https://img.freepik.com/premium-vector/swoosh-letter-js-logo-design-business-company-identity-water-wave-js-logo_754537-502.jpg?w=740",
+      percent: 80,
     },
     {
       name: "React",
@@ -53,7 +59,7 @@ function Skills() {
       name: "Bootstrap",
       logoUrl:
         "https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png",
-      percent: 60,
+      percent: 80,
     },
     {
       name: "Node.js",
@@ -77,7 +83,8 @@ function Skills() {
 
   return (
     <div className=" flex flex-col justify-center items-center text-center p-5 pt-12">
-      <p className="uppercase p-16 text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.8em] mx-auto xsm:mt-6">
+      {/* <p className="uppercase p-16 text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.8em] mx-auto xsm:mt-6"> */}
+      <p className="uppercase p-9 sm:text-2xl font-bold text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.3em] xsm:pt-12  xsm:mt-12 mx-auto text-center">
         Skills
       </p>
       {/* <h3 className="uppercase tracking-[3px] text-gray-400 text-sm">

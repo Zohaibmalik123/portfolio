@@ -48,7 +48,7 @@ function Hero() {
       {/* Text Column */}
       <div className="flex flex-1 flex-col lg:items-start sm:items-start text-center sm:text-left space-y-8">
         <p className="uppercase xsm:text-base sm:text-lg text-gray-400 tracking-wider">
-          Laravel Developer || Mern Stack Web Developer
+          Laravel Full-stack Developer || Mern Stack Web Developer
         </p>
         <h1 className="font-bold uppercase xsm:text-xl sm:text-2xl md:text-3xl mt-4">
           Hi, The Name's <span className="text-[#1da1f2] font-extrabold text-2xl">Zohaib</span>

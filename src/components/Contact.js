@@ -59,7 +59,8 @@ function Contact() {
 
   return (
     <div className="relative isolate flex flex-col w-[95%]">
-      <p className="uppercase p-16 text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.8em] mx-auto xsm:mt-6">
+      {/* <p className="uppercase p-16 text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.8em] mx-auto xsm:mt-6"> */}
+      <p className="uppercase p-9 sm:text-2xl font-bold text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.3em] xsm:pt-12  xsm:mt-12 mx-auto text-center">
         Contact
       </p>
       <div className=" mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 ">

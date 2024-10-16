@@ -90,7 +90,8 @@ function Projects() {
   return (
     <div className="relative flex flex-col text-center justify-center items-center overflow-hidden md:w-[100%]">
       {/* Heading */}
-      <p className="uppercase xsm:p-16 lg:p-5 text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.8em] mx-auto xsm:mt-6">
+      {/* <p className="uppercase xsm:p-16 lg:p-5 text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.8em] mx-auto xsm:mt-6"> */}
+      <p className="uppercase p-9 sm:text-2xl font-bold text-gray-400 xsm:tracking-[0.7em] sm:tracking-[0.3em] xsm:pt-12  xsm:mt-12 mx-auto text-center">
         Projects
       </p>
 

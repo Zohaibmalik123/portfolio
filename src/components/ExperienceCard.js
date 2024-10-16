@@ -10,7 +10,7 @@ function ExperienceCard({
   techUsed,
 }) {
   return (
-    <article className="flex flex-col flex-shrink-0 text-gray-300 p-10 xsm:w-[300px] sm:w-[400px] justify-center items-center snap-center bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden mx-3">
+    <article className="flex flex-col flex-shrink-0 text-gray-300 p-10 xsm:w-[300px] sm:w-[400px] justify-center items-center snap-center bg-[#292929] hover:opacity-100 opacity-75 cursor-pointer transition-opacity duration-200 overflow-hidden mx-3 sm:rounded-lg">
       <img
         src={companyLogo}
         alt="company"
