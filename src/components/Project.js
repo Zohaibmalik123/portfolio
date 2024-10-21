@@ -3,11 +3,11 @@ import { RiCheckboxCircleFill, RiLinksLine } from "react-icons/ri";
 function Project({ project }) {
   return (
     <div className="w-full flex xsm:flex-col p-6 lg:flex-row xsm:gap-7 sm:gap-0 md:gap-5 lg:gap-20 justify-center md:pt-24 px-9 lg:px-24 ">
-      <img
-        className=" rounded-lg object-cover sm:mt-4 xsm:w-full xsm:h-[230px] sm:w-full sm:h-[350px] md:w-[600px] lg:w-[450px] lg:h-[300px] sm:p-9"
-        src={project.imageUrl}
-        alt={project.name}
-      />
+        <img
+          className=" xl:rounded-[4rem] object-cover sm:mt-4 xsm:w-full xsm:h-[230px] sm:w-full sm:h-[350px] md:w-[600px] lg:w-[550px] lg:h-[350px] sm:p-9"
+          src={project.imageUrl}
+          alt={project.name}
+        />
       <div className=" text-justify md:w-[600px] lg:w-[650px] xl:w-[650px] sm:p-9 md:px-9 lg:p-9">
         <h3 className="xsm:text-base sm:text-xl md:text-3xl font-bold  ">
           {project.name}
@@ -17,14 +17,14 @@ function Project({ project }) {
         </p>
 
         <span className="sm:text-base xsm:text-sm text-gray-300 grid grid-cols-2 ">
-          <a
+          {/* <a
             target="_blank"
             rel="noopener noreferrer"
             href={project.githubRepo}
             className="flex items-center "
           >
             <RiLinksLine className="mr-1" /> Github Repo
-          </a>
+          </a> */}
           <a
             target="_blank"
             rel="noopener noreferrer"

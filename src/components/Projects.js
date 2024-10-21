@@ -28,29 +28,29 @@ function Projects() {
   const projectsData = [
     {
       id: 1,
-      name: "E-Commerce-FYP",
+      name: "Trusted Legal Advisor",
       imageUrl:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-4f2d2.appspot.com/o/ecommerce-mern-app.vercel.png?alt=media&token=ee13ddff-0df0-46cd-93e4-b52886639adc",
-      deployedUrl: "#",
+        "https://adnanpersonalportfolio.netlify.app/wp-content/uploads/2024/10/pexels-ekaterina-bolovtsova-6077447-1.jpg",
+      deployedUrl: "https://www.firstlawsolicitors.co.uk/",
       githubRepo: "#",
       description:
-        "An e-commerce platform with a product catalog, shopping cart, and Stripe integration for payments. It allows users to browse, purchase, and track their orders easily.",
-      technologies: ["React JS", "Node", "MongoDB", "Stripe"],
+        "A Team of solicitors you can trust to handle complex legal matters. No matter what the obstacles, we will work tenaciously to achieve a positive result.",
+      technologies: ["HTML", "CSS", "Javascript", "Laravel "],
     },
     {
       id: 2,
-      name: "Facebook Clone",
+      name: "E-commerce Dashboard",
       imageUrl:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-4f2d2.appspot.com/o/facebook-clone.png?alt=media&token=adab8011-ea4d-48b8-9095-dd1399ae40bb",
-      deployedUrl: "https://facebook-clone-blush-alpha.vercel.app/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgwagaqefYZm0VGtRAHvn3cTtQvN1rkj7JPw&s",
+      deployedUrl: "https://react-shopify-site.vercel.app/",
       githubRepo: "#",
       description:
-        "A social media platform that allowed users to sign in with their Google accounts and share updates.",
-      technologies: ["React JS", "Firebase"],
+        "An e-commerce platform with an order catalog, customer and employee modules, featuring charts, a Kanban board, and a color picker. This platform allows users to manage orders efficiently while providing tools for tracking and customization, enhancing both the user and administrative experience",
+      technologies: ["React JS", "Tailwind" , "Chakra UI" , "Syncfusion "],
     },
     {
       id: 3,
-      name: "searching-filtering-pagination",
+      name: "Searching-filtering-pagination",
       imageUrl:
         "https://firebasestorage.googleapis.com/v0/b/portfolio-4f2d2.appspot.com/o/react-filtering-searching-pagination.png?alt=media&token=3cff4606-68a7-4822-a5bb-f5a4ef0dbb6e",
       deployedUrl: "https://react-filtering-searching-pagination.vercel.app/",
@@ -62,14 +62,14 @@ function Projects() {
     },
     {
       id: 4,
-      name: "E-commerce Store",
+      name: "Expert Printing Solutions",
       imageUrl:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-4f2d2.appspot.com/o/javascript-shopping-cart.png?alt=media&token=a246c70e-6d9c-4f87-9ba3-619dc70c2083",
-      deployedUrl: "https://javascript-shopping-cart.vercel.app/",
+        "https://adnanpersonalportfolio.netlify.app/wp-content/uploads/2024/10/geri-sakti-g9_KP2fvFII-unsplash-1-1.jpg",
+      deployedUrl: "https://www.printvillage.co.uk/",
       githubRepo: "#",
       description:
-        "Websites that allow customers to browse, search, and add items to their shopping carts",
-      technologies: ["HTML", "CSS", "Javascript"],
+        "Our initiative is dedicated to empowering small and start-up ventures in their quest for work and co-working spaces.",
+      technologies: ["HTML", "CSS", "Javascript" , "Laravel"],
     },
   ];
 

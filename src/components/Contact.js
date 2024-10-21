@@ -1,22 +1,21 @@
 import React, { useState } from "react";
 import {
-  BuildingOffice2Icon,
   EnvelopeIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
 import { publicRequest } from "../RequestApiCalls/Request";
 import { Spinner } from "@chakra-ui/react";
 import { toast } from "react-toastify";
-import { Formik, Form, Field, ErrorMessage, useFormik } from "formik";
+import {  useFormik } from "formik";
 import { ContactValidation } from "../validationSchemas/ContactValidation";
 
 function Contact() {
   const [isLoading, setIsLoading] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
 
   // const handleChange = (e) => {
   //   const { name, value } = e.target;
@@ -216,7 +215,7 @@ function Contact() {
                     className="hover:text-white"
                     href="mailto:arshannawaz.dev@gmail.com"
                   >
-                    zohiabmalik02000@gmail.com
+                    zohaibmalik02000@gmail.com
                   </a>
                 </dd>
               </div>

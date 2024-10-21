@@ -47,7 +47,7 @@ function About() {
           </p>
           <div className="ml-4 text-gray-300 sm:text-base xsm:text-sm">
             <span>My preferred weapons of choice 👇</span>
-            <div className="grid grid-cols-3 mt-6 mb-4 gap-y-4">
+            <div className="grid grid-cols-3 mt-6 mb-5 gap-y-4">
               <p className="flex items-center">
                 <RiCheckboxCircleFill
                   className="mr-2 text-white text-xl"
@@ -90,7 +90,8 @@ function About() {
                 />
                 NodeJS
               </p>
-              <div className="mt-5 mb-10">
+            </div>
+            <div className="mt-5 mb-10">
                 <a
                   href={resume}
                   download="Muhammad_Zohaib_Ali_Resume.pdf"
@@ -99,7 +100,6 @@ function About() {
                   Download Resume
                 </a>
               </div>
-            </div>
           </div>
         </div>
       </div>
