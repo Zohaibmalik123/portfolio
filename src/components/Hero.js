@@ -1,6 +1,6 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import hero from "../assets/hero.png";
+import hero from "../assets/hero1.png";
 import ReactWhatsapp from "react-whatsapp";
 
 function Hero() {
@@ -39,10 +39,10 @@ function Hero() {
     //     </ReactWhatsapp>
     //   </div>
     // </div>
-    <div className="h-[calc(90vh-20px)] flex flex-col sm:flex-row items-center justify-center sm:mt-2 px-6 sm:px-10">
+    <div className="sm:h-[calc(140vh-20px)] md:h-[calc(110vh-20px)] lg:h-[calc(90vh-20px)] flex flex-col sm:flex-row items-center justify-center sm:mt-2 px-6 sm:px-10">
       {/* Image Column */}
       <div className="flex flex-1 lg:justify-center md:justify-center sm:justify-end mb-4 sm:mb-0">
-        <img src={hero} alt="hero" width={500} height={500} className="rounded-full" />
+        <img  src={hero} alt="hero" width={350} height={350} className="rounded-full opacity-70" />
       </div>
 
       {/* Text Column */}
