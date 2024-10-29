@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { AiOutlineMenuFold } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-scroll";
+import  Logo  from '.././assets/logo1.png'
 
 function Header() {
   const [menu, setMenu] = useState(false);
@@ -219,9 +220,14 @@ function Header() {
             offset={-70}
             duration={500}
           >
-            <h1 className=" xsm:w-10 xsm:h-10 md:w-10 md:h-10 cursor-pointer  xsm:text-base md:text-xl rounded-full bg-transparent border-2 border-white text-white flex justify-center items-center">
+            {/* <h1 className=" xsm:w-10 xsm:h-10 md:w-10 md:h-10 cursor-pointer  xsm:text-base md:text-xl rounded-full bg-transparent border-2 border-white text-white flex justify-center items-center">
               ZA
-            </h1>
+            </h1> */}
+             <img
+                src={Logo} // Replace with the actual path to your image
+                alt="Logo"
+                className="xsm:w-10 xsm:h-10 md:w-20 md:h-20 mt-5 cursor-pointer rounded-full border-2 border-white"
+              />
           </Link>
         </motion.div>
 
